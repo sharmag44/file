@@ -1,0 +1,37 @@
+{
+    "db": {
+        "username": "bcoderdev",
+        "password": "bcoderdev123",
+        "database": "demo_db",
+        "host": "162.0.238.156",
+        "port": "3306",
+        "dialect": "mysql"
+    },
+    "auth": {
+        "secret": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9",
+        "tokenPeriod": "1440h"
+    },
+    "webServer": {
+        "url": "http://demo.com",
+        "adminEmail": "admin@demo.com",
+        "baseUrl": "http://demo.com",
+        "port": "4014"
+    },
+    "redis":{
+        "url": "redis:127.0.0.1:6379"
+    },
+    "logger": {
+        "console": {
+            "level": "silly",
+            "handleExceptions": true,
+            "json": false,
+            "colorize": true
+        }
+    },
+    "authConfig": {
+        "secret": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9",
+        "refreshSecret": "UHVJhbjhbvfeHbbJKcndKJbBKkbkjbBKBbkb",
+        "tokenPeriod": "1m",
+        "refreshPeriod": "1d"
+    }
+}
